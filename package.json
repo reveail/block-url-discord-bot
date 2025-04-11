@@ -6,11 +6,17 @@
   "scripts": {
     "start": "node index.js"
   },
-  "keywords": ["discord", "bot", "url", "block"],
+  "keywords": [
+    "discord",
+    "bot",
+    "url",
+    "block"
+  ],
   "author": "SeuNome",
   "license": "MIT",
   "dependencies": {
     "discord.js": "^14.13.0",
-    "dotenv": "^16.3.1"
+    "dotenv": "^16.3.1",
+    "express": "^5.1.0"
   }
 }

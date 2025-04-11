@@ -113,3 +113,11 @@ client.on(Events.MessageCreate, message => {
 });
 
 client.login(TOKEN);
+
+// ⚡ Servidor web para manter Render feliz
+const express = require('express');
+const app = express();
+const PORT = process.env.PORT || 3000;
+
+app.get('/', (_, res) => res.send('Bot está rodando.'));
+app.listen(PORT, () => console.log(`🟢 Servidor web ouvindo na porta ${PORT}`));
