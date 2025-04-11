@@ -1,0 +1,16 @@
+{
+  "name": "discord-url-blocker-bot",
+  "version": "1.1.0",
+  "description": "Bot do Discord para bloquear URLs em canais específicos.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": ["discord", "bot", "url", "block"],
+  "author": "SeuNome",
+  "license": "MIT",
+  "dependencies": {
+    "discord.js": "^14.13.0",
+    "dotenv": "^16.3.1"
+  }
+}
